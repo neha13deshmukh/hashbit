@@ -1,0 +1,10 @@
+Question 1.  It will print the output "string" its because the function foo() will return a value of type string.
+
+Question 2. This will print the output  "function" because the return value of foo() is a function.
+
+Question 3.This will print the output 10 because the global variable x was updated to 10 by the function foo().
+
+
+
+
+
