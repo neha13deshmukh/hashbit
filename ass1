@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage </title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif,cursive;
+        }
+        header {
+            background-color: #333;
+            color: rgb(170, 95, 95);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+        }
+        .social-links a {
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+       
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+       
+        .container {
+            display: flex;
+        }
+
+   
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 10px;
+            width: 20%;
+        }
+
+        /* Main content styles */
+        .main-content {
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+       
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer part */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <header>
+        <img src="logo.png" alt="Logo">
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">facebook</a>
+            <a href="https://www.twitter.com" target="_blank">twitter</a>
+            <a href="https://www.instagram.com" target="_blank">instagram</a>
+        </div>
+    </header>
+
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+
+    <div class="container">
+        
+        <div class="sidebar">
+            <p>Custom data or content are here</p>
+        </div>
+
+        
+        <div class="main-content">
+            <div class="box">
+                <h3>Title 1</h3>
+                <img src="image1.jpg" alt="Image 1" width="100%">
+                <p>Description 1</p>
+            </div>
+            <div class="box">
+                <h3>Title 2</h3>
+                <img src="image2.jpg" alt="Image 2" width="100%">
+                <p>Description 2</p>
+            </div>
+            <div class="box">
+                <h3>Title 3</h3>
+                <img src="image3.jpg" alt="Image 3" width="100%">
+                <p>Description 3</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> footer content is here</p>
+    </footer>
+</body>
+
+</html>
